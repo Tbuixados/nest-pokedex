@@ -8,6 +8,10 @@
 2. Ejecutar `yarn install`
 3. Tener Nest CLI instalado `npm i -g @nestjs/cli`
 4. Levantar la BD `docker-compose up -d`
+5. Clonar el archivo **.env.template** y renombrar la copia a **.env**
+6. Llenar las varaibles de entorno definidas en `.env`
+7. Ehecytar la aplicación en dev: `yarn start:dev`
+8. Reconstruir la BD con la semilla `localhost:3000/api/v2/seed`
 
 # Stack usado
 
